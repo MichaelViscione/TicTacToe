@@ -25,7 +25,7 @@ namespace WindowsFormsApp2
         {
             Button b = (Button)sender;
             if (turn)
-                b.Text = "6";
+                b.Text = "X";
             else
                 b.Text = "O";
 
