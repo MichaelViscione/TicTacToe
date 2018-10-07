@@ -1,2 +1,2 @@
 # TicTacToe
-TicTacToe game in a Windows Form with an implemented A.I.
+TicTacToe game in a Windows Form with plans for an implemented A.I.
