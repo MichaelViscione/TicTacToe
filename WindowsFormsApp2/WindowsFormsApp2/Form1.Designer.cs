@@ -28,27 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.A0 = new System.Windows.Forms.Button();
             this.A1 = new System.Windows.Forms.Button();
             this.A2 = new System.Windows.Forms.Button();
-            this.A3 = new System.Windows.Forms.Button();
+            this.B0 = new System.Windows.Forms.Button();
             this.B1 = new System.Windows.Forms.Button();
             this.B2 = new System.Windows.Forms.Button();
-            this.B3 = new System.Windows.Forms.Button();
+            this.C0 = new System.Windows.Forms.Button();
             this.C1 = new System.Windows.Forms.Button();
             this.C2 = new System.Windows.Forms.Button();
-            this.C3 = new System.Windows.Forms.Button();
             this.reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // A0
+            // 
+            this.A0.BackColor = System.Drawing.Color.Gainsboro;
+            this.A0.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.A0.Location = new System.Drawing.Point(12, 52);
+            this.A0.Name = "A0";
+            this.A0.Size = new System.Drawing.Size(70, 70);
+            this.A0.TabIndex = 0;
+            this.A0.UseVisualStyleBackColor = false;
+            this.A0.Click += new System.EventHandler(this.buttonClick);
             // 
             // A1
             // 
             this.A1.BackColor = System.Drawing.Color.Gainsboro;
             this.A1.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.A1.Location = new System.Drawing.Point(12, 52);
+            this.A1.Location = new System.Drawing.Point(88, 52);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(70, 70);
-            this.A1.TabIndex = 0;
+            this.A1.TabIndex = 1;
             this.A1.UseVisualStyleBackColor = false;
             this.A1.Click += new System.EventHandler(this.buttonClick);
             // 
@@ -57,34 +69,34 @@
             this.A2.BackColor = System.Drawing.Color.Gainsboro;
             this.A2.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.A2.Location = new System.Drawing.Point(88, 52);
+            this.A2.Location = new System.Drawing.Point(164, 52);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(70, 70);
-            this.A2.TabIndex = 1;
+            this.A2.TabIndex = 2;
             this.A2.UseVisualStyleBackColor = false;
             this.A2.Click += new System.EventHandler(this.buttonClick);
             // 
-            // A3
+            // B0
             // 
-            this.A3.BackColor = System.Drawing.Color.Gainsboro;
-            this.A3.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.A3.Location = new System.Drawing.Point(164, 52);
-            this.A3.Name = "A3";
-            this.A3.Size = new System.Drawing.Size(70, 70);
-            this.A3.TabIndex = 2;
-            this.A3.UseVisualStyleBackColor = false;
-            this.A3.Click += new System.EventHandler(this.buttonClick);
+            this.B0.BackColor = System.Drawing.Color.Gainsboro;
+            this.B0.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.B0.Location = new System.Drawing.Point(12, 128);
+            this.B0.Name = "B0";
+            this.B0.Size = new System.Drawing.Size(70, 70);
+            this.B0.TabIndex = 3;
+            this.B0.UseVisualStyleBackColor = false;
+            this.B0.Click += new System.EventHandler(this.buttonClick);
             // 
             // B1
             // 
             this.B1.BackColor = System.Drawing.Color.Gainsboro;
             this.B1.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.B1.Location = new System.Drawing.Point(12, 128);
+            this.B1.Location = new System.Drawing.Point(88, 128);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(70, 70);
-            this.B1.TabIndex = 3;
+            this.B1.TabIndex = 4;
             this.B1.UseVisualStyleBackColor = false;
             this.B1.Click += new System.EventHandler(this.buttonClick);
             // 
@@ -93,34 +105,34 @@
             this.B2.BackColor = System.Drawing.Color.Gainsboro;
             this.B2.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.B2.Location = new System.Drawing.Point(88, 128);
+            this.B2.Location = new System.Drawing.Point(164, 128);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(70, 70);
-            this.B2.TabIndex = 4;
+            this.B2.TabIndex = 5;
             this.B2.UseVisualStyleBackColor = false;
             this.B2.Click += new System.EventHandler(this.buttonClick);
             // 
-            // B3
+            // C0
             // 
-            this.B3.BackColor = System.Drawing.Color.Gainsboro;
-            this.B3.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.B3.Location = new System.Drawing.Point(164, 128);
-            this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(70, 70);
-            this.B3.TabIndex = 5;
-            this.B3.UseVisualStyleBackColor = false;
-            this.B3.Click += new System.EventHandler(this.buttonClick);
+            this.C0.BackColor = System.Drawing.Color.Gainsboro;
+            this.C0.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.C0.Location = new System.Drawing.Point(12, 204);
+            this.C0.Name = "C0";
+            this.C0.Size = new System.Drawing.Size(70, 70);
+            this.C0.TabIndex = 6;
+            this.C0.UseVisualStyleBackColor = false;
+            this.C0.Click += new System.EventHandler(this.buttonClick);
             // 
             // C1
             // 
             this.C1.BackColor = System.Drawing.Color.Gainsboro;
             this.C1.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.C1.Location = new System.Drawing.Point(12, 204);
+            this.C1.Location = new System.Drawing.Point(88, 204);
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(70, 70);
-            this.C1.TabIndex = 6;
+            this.C1.TabIndex = 7;
             this.C1.UseVisualStyleBackColor = false;
             this.C1.Click += new System.EventHandler(this.buttonClick);
             // 
@@ -129,24 +141,12 @@
             this.C2.BackColor = System.Drawing.Color.Gainsboro;
             this.C2.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.C2.Location = new System.Drawing.Point(88, 204);
+            this.C2.Location = new System.Drawing.Point(164, 204);
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(70, 70);
-            this.C2.TabIndex = 7;
+            this.C2.TabIndex = 8;
             this.C2.UseVisualStyleBackColor = false;
             this.C2.Click += new System.EventHandler(this.buttonClick);
-            // 
-            // C3
-            // 
-            this.C3.BackColor = System.Drawing.Color.Gainsboro;
-            this.C3.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.C3.Location = new System.Drawing.Point(164, 204);
-            this.C3.Name = "C3";
-            this.C3.Size = new System.Drawing.Size(70, 70);
-            this.C3.TabIndex = 8;
-            this.C3.UseVisualStyleBackColor = false;
-            this.C3.Click += new System.EventHandler(this.buttonClick);
             // 
             // reset
             // 
@@ -164,15 +164,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(246, 286);
             this.Controls.Add(this.reset);
-            this.Controls.Add(this.C3);
             this.Controls.Add(this.C2);
             this.Controls.Add(this.C1);
-            this.Controls.Add(this.B3);
+            this.Controls.Add(this.C0);
             this.Controls.Add(this.B2);
             this.Controls.Add(this.B1);
-            this.Controls.Add(this.A3);
+            this.Controls.Add(this.B0);
             this.Controls.Add(this.A2);
             this.Controls.Add(this.A1);
+            this.Controls.Add(this.A0);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(262, 325);
             this.MinimumSize = new System.Drawing.Size(262, 325);
@@ -186,15 +186,15 @@
 
         #endregion
 
+        private System.Windows.Forms.Button A0;
         private System.Windows.Forms.Button A1;
         private System.Windows.Forms.Button A2;
-        private System.Windows.Forms.Button A3;
+        private System.Windows.Forms.Button B0;
         private System.Windows.Forms.Button B1;
         private System.Windows.Forms.Button B2;
-        private System.Windows.Forms.Button B3;
+        private System.Windows.Forms.Button C0;
         private System.Windows.Forms.Button C1;
         private System.Windows.Forms.Button C2;
-        private System.Windows.Forms.Button C3;
         private System.Windows.Forms.Button reset;
     }
 }
